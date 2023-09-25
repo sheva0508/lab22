@@ -1,11 +1,14 @@
+
+
+
 #include <iostream>
 #include <cstdlib> // для system
 using namespace std;
 
 int main() 
-{ 
-    cout << "Hello, world!" << endl;
-    system("pause"); // Только для тех, у кого MS Visual Studio
+{
+    name = input("vvedite name: ")
+    print("Hello world from @" + name);
     return 0; 
 }
 
