@@ -1,14 +1,10 @@
-
-
-
 #include <iostream>
 #include <cstdlib> // для system
-using namespace std;
 
 int main() 
 {
-    name = input("vvedite name: ")
-    print("Hello world from @" + name);
+    name =std::input("vvedite name: ")
+    std::print("Hello world from @" + name);//bubilda
     return 0; 
 }
 
